@@ -1,11 +1,13 @@
+![banner](https://raw.githubusercontent.com/daoquan1002/playdepth-music/refs/heads/main/promotion/banner.png)
+
 # PlayDepth
 
-**PlayDepth** is an offline, hi-res & bit-perfect USB DAC music player for Android, built with Jetpack Compose, Material 3, AndroidX Media3, FFmpeg, and a custom native C++17 `usbdevfs` UAC 1.0/2.0/3.0 driver.
+**PlayDepth** is an offline, Hi-Res & Bit-Perfect USB DAC music player for Android, built with Jetpack Compose, Material 3, AndroidX Media3, FFmpeg, and a custom native C++17 `usbdevfs` UAC 1.0/2.0/3.0 driver.
 
 > **Project Scope**
 >
 > PlayDepth is a **personal project** published primarily for **transparency and auditability** — allowing users to inspect how local files, permissions, and USB audio hardware are handled, or build the app from source.
-> Please read [CONTRIBUTING.md](CONTRIBUTING.md) before opening an issue or pull request.
+> Please read [CONTRIBUTING.md](CONTRIBUTING.md) before opening an issue.
 
 ---
 
@@ -16,6 +18,10 @@
 - **Offline Library & Metadata:** Hybrid MediaStore + direct filesystem scanner, SQLite-backed playlists, favorites, and listening history, deduplicated album artwork caching, offline synced (`.lrc`) and static lyrics, and detailed audio spec inspection.
 - **Adaptive Material 3 UI:** Built 100% in Jetpack Compose for phones and tablets, featuring both **Classic** and **Modern** edge-to-edge Now Playing styles, drag-and-drop queue reordering, and alphabetical fast scrolling. Localized in English and Vietnamese.
 - **Built-in Diagnostics:** Real-time USB DAC telemetry sheet and a ring-buffered debug logger with shareable diagnostic reports for troubleshooting hardware compatibility.
+
+---
+
+## Screenshots
 
 ---
 
@@ -66,6 +72,12 @@ app/src/
 ```
 
 See [CONVENTIONS.md](CONVENTIONS.md) for coding guidelines and the full module map.
+
+---
+
+## Notice
+
+Follow me on [Telegram channel](https://t.me/playdepth) for more infomations.
 
 ---
 
