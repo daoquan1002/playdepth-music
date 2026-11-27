@@ -23,6 +23,10 @@
 
 ## Screenshots
 
+| ![](https://raw.githubusercontent.com/daoquan1002/playdepth-music/refs/heads/main/promotion/1.jpg) | ![](https://raw.githubusercontent.com/daoquan1002/playdepth-music/refs/heads/main/promotion/2.jpg) |
+| -------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- |
+| ![](https://raw.githubusercontent.com/daoquan1002/playdepth-music/refs/heads/main/promotion/3.jpg) | ![](https://raw.githubusercontent.com/daoquan1002/playdepth-music/refs/heads/main/promotion/4.jpg) |
+
 ---
 
 ## Tech Stack
