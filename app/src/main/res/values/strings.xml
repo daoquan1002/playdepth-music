@@ -1,0 +1,506 @@
+<resources>
+    <string name="app_name">PlayDepth</string>
+
+    <!-- Common -->
+    <string name="action_back">Back</string>
+    <string name="action_close">Close</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_rename">Rename</string>
+    <string name="action_save">Save</string>
+    <string name="action_create">Create</string>
+    <string name="action_clear">Clear</string>
+    <string name="action_play">Play</string>
+    <string name="action_play_all">Play all</string>
+    <string name="action_shuffle">Shuffle</string>
+    <string name="action_shuffle_short">Shuffle</string>
+    <string name="action_sort">Sort</string>
+    <string name="action_more">More options</string>
+    <string name="action_search">Search</string>
+
+    <!-- Fallback & System Names -->
+    <string name="unknown_artist">Unknown artist</string>
+    <string name="unknown_album">Unknown album</string>
+    <string name="various_artists">Various artists</string>
+    <string name="unknown_genre">Unknown genre</string>
+    <string name="favorites_playlist_name">Favorite songs</string>
+    <string name="badge_system">System</string>
+    <string name="queue_source_default">Default</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_library">Library</string>
+
+    <!-- Home Screen -->
+    <string name="home_greeting_morning">Good morning</string>
+    <string name="home_greeting_afternoon">Good afternoon</string>
+    <string name="home_greeting_evening">Good evening</string>
+    <string name="home_menu_options">Options</string>
+    <string name="home_rescan">Rescan library</string>
+    <string name="home_settings">Settings</string>
+    <string name="home_permission_title">Audio permission required</string>
+    <string name="home_permission_desc">The app needs permission to read audio files on your device to scan and play your offline music library.</string>
+    <string name="home_permission_grant">Grant permission</string>
+    <string name="home_scanning">Scanning local music library…</string>
+    <string name="home_recent_albums">Recently played albums</string>
+    <string name="home_recent_songs">Recently played songs</string>
+    <string name="home_recent_artists">Recently played artists</string>
+    <string name="home_recent_source">Recently played</string>
+    <string name="home_empty_title">No history yet</string>
+    <string name="home_empty_albums">No album playback history yet</string>
+    <string name="home_empty_songs">No song playback history yet</string>
+    <string name="home_empty_artists">No artist playback history yet</string>
+
+    <!-- MiniPlayer -->
+    <string name="mini_no_song">No track playing</string>
+    <string name="mini_subtitle">PlayDepth Music</string>
+    <string name="cd_play">Play</string>
+    <string name="cd_pause">Pause</string>
+    <string name="cd_previous">Previous track</string>
+    <string name="cd_next">Next track</string>
+
+    <!-- Library Screen -->
+    <string name="library_title">Library</string>
+    <string name="library_toggle_layout">Switch layout</string>
+    <string name="library_search_hint">Search across library…</string>
+    <string name="tab_songs_count">Songs (%1$d)</string>
+    <string name="tab_albums_count">Albums (%1$d)</string>
+    <string name="tab_artists_count">Artists (%1$d)</string>
+    <string name="tab_genres_count">Genres (%1$d)</string>
+    <string name="tab_years_count">Years (%1$d)</string>
+    <string name="tab_folders_count">Folders (%1$d)</string>
+    <string name="tab_files">Files</string>
+    <string name="tab_playlists_count">Playlists (%1$d)</string>
+    <string name="duration_hours_minutes">%1$d hr %2$d min</string>
+    <string name="duration_minutes">%1$d min</string>
+    <string name="sort_by_header">Sort by</string>
+    <string name="sort_songs_header">Sort songs by</string>
+    <string name="sort_albums_header">Sort albums by</string>
+    <string name="sort_artists_header">Sort artists by</string>
+    <string name="sort_genres_header">Sort genres by</string>
+    <string name="sort_years_header">Sort years by</string>
+    <string name="sort_folders_header">Sort folders by</string>
+    <string name="sort_files_header">Sort files by</string>
+    <string name="sort_option_title_az">Title (A-Z)</string>
+    <string name="sort_option_date_added">Recently added</string>
+    <string name="sort_option_duration">Duration</string>
+    <string name="sort_option_artist">Artist</string>
+    <string name="sort_option_track_number">Track number</string>
+    <string name="common_sort_name_az">Name (A-Z)</string>
+    <string name="common_sort_name_za">Name (Z-A)</string>
+    <string name="common_sort_count_desc">Most songs</string>
+    <string name="common_sort_default">Default</string>
+    <string name="playlist_create_new">Create new playlist</string>
+    <string name="playlist_rename_title">Rename playlist</string>
+    <string name="empty_no_songs">No songs found</string>
+    <string name="empty_no_albums">No albums found</string>
+    <string name="empty_no_artists">No artists found</string>
+    <string name="empty_no_genres">No genres found</string>
+    <string name="empty_no_years">No year data available</string>
+    <string name="empty_no_folders">No music folders found</string>
+    <string name="storage_root_label">Storage devices</string>
+    <string name="storage_internal_name">Internal storage</string>
+    <string name="storage_sdcard_name">SD Card</string>
+    <string name="storage_external_name">USB OTG</string>
+    <string name="folder_tree_summary_both">%1$s • %2$s</string>
+
+    <!-- Now Playing & Queue -->
+    <string name="cd_collapse">Collapse</string>
+    <string name="cd_shuffle">Shuffle</string>
+    <string name="cd_repeat">Repeat</string>
+    <string name="cd_lyrics">Lyrics</string>
+    <string name="cd_favorite">Favorite</string>
+    <string name="cd_queue">Queue</string>
+    <string name="cd_remove_from_queue">Remove from queue</string>
+    <string name="cd_drag_reorder">Drag to reorder</string>
+    <string name="queue_playing_from">Playing from</string>
+    <string name="search_empty_hint">Try another keyword or check the Albums / Artists tabs</string>
+
+    <!-- Notifications & Service -->
+    <string name="notif_channel_scan_name">Music library scan</string>
+    <string name="notif_channel_scan_desc">Notifications for local audio scanning progress</string>
+    <string name="notif_scan_title">Scanning music library</string>
+    <string name="notif_scan_done_title">Library scan complete</string>
+    <string name="service_shuffle_on">Shuffle: On</string>
+    <string name="service_shuffle_off">Shuffle: Off</string>
+    <string name="service_repeat_one">Repeat: One</string>
+    <string name="service_repeat_all">Repeat: All</string>
+    <string name="service_repeat_off">Repeat: Off</string>
+
+    <!-- Detail Screens -->
+    <string name="artist_summary_format">%1$s • %2$s</string>
+    <string name="artist_albums_count_format">Albums (%1$d)</string>
+    <string name="year_title_format">Year %1$d</string>
+    <string name="year_unknown">Unknown year</string>
+    <string name="playlist_fav_desc">Auto-generated favorite songs playlist</string>
+    <string name="playlist_custom_desc">Custom playlist</string>
+    <string name="playlist_delete_title">Delete playlist?</string>
+    <string name="playlist_delete_msg">Are you sure you want to delete "%1$s"? Songs on your device will not be deleted.</string>
+    <string name="playlist_removed_song_toast">Removed song from playlist</string>
+
+    <!-- Song Actions & Dialogs -->
+    <string name="song_action_play_now">Play now</string>
+    <string name="song_action_play_next">Play next</string>
+    <string name="song_action_add_queue">Add to queue</string>
+    <string name="song_action_add_playlist">Add to playlist…</string>
+    <string name="song_action_fav_add">Add to favorites</string>
+    <string name="song_action_fav_remove">Remove from favorites</string>
+    <string name="song_action_share">Share song</string>
+    <string name="song_action_remove_playlist">Remove from this playlist</string>
+    <string name="song_action_go_album">Go to Album</string>
+    <string name="song_action_go_artist">Go to Artist</string>
+    <string name="song_action_info">Song details</string>
+    <string name="song_action_delete_device">Delete from device</string>
+    <string name="toast_added_play_next">Added to play next</string>
+    <string name="toast_added_queue">Added to queue</string>
+    <string name="toast_fav_added">Added to Favorites</string>
+    <string name="toast_fav_removed">Removed from Favorites</string>
+    <string name="toast_share_error">Cannot share this track</string>
+    <string name="toast_share_missing">Audio file not found to share</string>
+    <string name="toast_deleted_song">Song deleted from device</string>
+    <string name="toast_delete_cancelled">Deletion cancelled</string>
+    <string name="toast_delete_failed">Could not delete song</string>
+    <string name="share_chooser_title">Share "%1$s"</string>
+    <string name="dialog_delete_song_title">Delete song from device?</string>
+    <string name="dialog_delete_song_msg">Audio file "%1$s" will be permanently deleted from device storage. This action cannot be undone.</string>
+    <string name="dialog_add_playlist_title">Add to playlist</string>
+    <string name="dialog_create_playlist_title">Create playlist</string>
+    <string name="dialog_playlist_name_label">Playlist name</string>
+    <string name="toast_added_to_playlist">Added to "%1$s"</string>
+    <string name="toast_added_to_new_playlist">Added song to new playlist</string>
+    <string name="toast_created_playlist">Created playlist "%1$s"</string>
+    <string name="dialog_song_info_title">Song details</string>
+    <string name="info_title">Title</string>
+    <string name="info_artist">Artist</string>
+    <string name="info_album">Album</string>
+    <string name="info_genre">Genre</string>
+    <string name="info_year">Year</string>
+    <string name="info_duration">Duration</string>
+    <string name="info_format">Audio format</string>
+    <string name="info_size">File size</string>
+    <string name="info_path">File path</string>
+
+    <!-- Settings Screen -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_about_title">About</string>
+    <string name="settings_version_text">Version v%1$s (%2$d)</string>
+    <string name="about_app_tagline">A lightweight, premium music player for Android.</string>
+    <string name="about_driver_section_title">Driver</string>
+    <string name="about_licenses_section_title">Licenses</string>
+    <string name="about_open_source_title">Open-source licenses</string>
+    <string name="about_app_license_title">App license</string>
+    <string name="about_app_license_value">GPL-3.0</string>
+    <string name="about_maintainer_title">Maintainer</string>
+    <string name="about_maintainer_name">Quan.</string>
+    <string name="about_maintainer_handle">quandot-works</string>
+    <string name="about_brand_logo_cd">Quan. Works</string>
+    <string name="about_copyright_format">© %1$d</string>
+    <string name="settings_theme_title">Theme mode</string>
+    <string name="settings_theme_system">System</string>
+    <string name="settings_theme_light">Light</string>
+    <string name="settings_theme_dark">Dark</string>
+    <string name="settings_color_title">Color palette</string>
+    <string name="settings_color_dynamic">Dynamic (Wallpaper)</string>
+    <string name="settings_color_default">Default</string>
+    <string name="settings_song_color_title">Dynamic color from song</string>
+    <string name="settings_song_color_desc">Adapt Material You theme colors from the currently playing album art</string>
+    <string name="settings_short_filter_title">Filter short audio</string>
+    <string name="settings_filter_0s">0s</string>
+    <string name="settings_filter_10s">&lt; 10s</string>
+    <string name="settings_filter_15s">&lt; 15s</string>
+    <string name="settings_filter_30s">&lt; 30s</string>
+    <string name="settings_filter_60s">&lt; 60s</string>
+    <string name="settings_sleep_timer_title">Sleep timer</string>
+    <string name="settings_timer_track_end">Track end</string>
+    <string name="cd_sleep_timer">Sleep timer</string>
+    <string name="sleep_timer_dialog_subtitle">Select stop time</string>
+    <string name="sleep_timer_switch_keyboard">Switch to text input</string>
+    <string name="sleep_timer_switch_clock">Switch to clock dial</string>
+    <string name="sleep_timer_stop_at_minutes">Stops in %1$d min (%2$s)</string>
+    <string name="sleep_timer_stop_at_hours">Stops in %1$d hr (%2$s)</string>
+    <string name="sleep_timer_stop_at_hours_minutes">Stops in %1$dh %2$dm (%3$s)</string>
+    <string name="sleep_timer_tomorrow_format">%1$s tomorrow</string>
+    <string name="sleep_timer_active_remaining">Active • %1$s left</string>
+    <string name="sleep_timer_active_track_end">Active • Stops after current track</string>
+    <string name="sleep_timer_quick_15m">+15m</string>
+    <string name="sleep_timer_quick_30m">+30m</string>
+    <string name="sleep_timer_quick_60m">+60m</string>
+    <string name="sleep_timer_turn_off">Turn off</string>
+    <string name="sleep_timer_set">Set timer</string>
+    <string name="toast_timer_off">Sleep timer turned off</string>
+    <string name="toast_timer_track_end">Playback will pause after current track</string>
+    <string name="toast_timer_scheduled">Playback will pause at %1$s</string>
+    <string name="settings_autoplay_title">Auto-play on headset / DAC</string>
+    <string name="settings_autoplay_desc">Resume playback automatically when an audio device connects</string>
+    <string name="settings_keep_screen_title">Keep screen on in player</string>
+    <string name="settings_keep_screen_desc">Prevent screen sleep while viewing Now Playing</string>
+    <string name="settings_usb_dac_section_title">USB DAC</string>
+    <string name="settings_usb_dac_title">USB DAC Direct (Bit-Perfect)</string>
+    <string name="settings_usb_dac_desc_disconnected">Bypass Android AudioFlinger/SRC when a USB DAC is connected</string>
+    <string name="settings_usb_dac_desc_permission">%1$s • Tap below to grant USB permission</string>
+    <string name="settings_usb_dac_desc_ready">%1$s • Ready (%2$s)</string>
+    <string name="settings_usb_dac_desc_streaming_mode">%1$s • %2$s (%3$s)</string>
+    <string name="settings_usb_dac_grant_permission">Grant USB DAC permission</string>
+    <string name="settings_usb_stats_btn_title">View statistics</string>
+    <string name="settings_usb_stats_screen_title">USB DAC statistics</string>
+    <string name="usb_stats_section_hardware">USB DAC hardware</string>
+    <string name="usb_stats_section_stream">Active audio pipeline</string>
+    <string name="usb_stats_section_volume_clock">Volume &amp; clock sync</string>
+    <string name="usb_stats_label_device">DAC device</string>
+    <string name="usb_stats_label_protocol">USB Audio Class</string>
+    <string name="usb_stats_label_supported_rates">PCM sample rates</string>
+    <string name="usb_stats_label_supported_bits">PCM bit depths</string>
+    <string name="usb_stats_label_max_channels">Max channels</string>
+    <string name="usb_stats_label_native_dsd">Native DSD</string>
+    <string name="usb_stats_label_dop">DSD over PCM (DoP)</string>
+    <string name="usb_stats_label_max_dsd">Max DSD rate</string>
+    <string name="usb_stats_label_source_format">Source file</string>
+    <string name="usb_stats_label_dac_output">Actual DAC output</string>
+    <string name="usb_stats_label_transport_mode">Transport mode</string>
+    <string name="usb_stats_label_dsp_stages">Active DSP stages</string>
+    <string name="usb_stats_label_hw_volume">Hardware volume</string>
+    <string name="usb_stats_label_sw_vol_bypass">SW volume bypass</string>
+    <string name="usb_stats_label_volume_level">Volume level</string>
+    <string name="usb_stats_label_clock_sync">Clock sync mode</string>
+    <string name="usb_stats_label_fb_lock">Async feedback lock</string>
+    <string name="usb_stats_label_fb_drift">Clock drift</string>
+    <string name="usb_stats_label_rt_health">Underruns / RT stalls</string>
+    <string name="usb_stats_status_streaming">Streaming</string>
+    <string name="usb_stats_status_paused">Paused</string>
+    <string name="usb_stats_status_ready">Ready</string>
+    <string name="usb_stats_status_permission">Permission required</string>
+    <string name="usb_stats_status_error">Error</string>
+    <string name="usb_stats_status_disconnected">Disconnected</string>
+    <string name="usb_stats_supported">Supported</string>
+    <string name="usb_stats_unsupported">Not supported</string>
+    <string name="usb_stats_none">None</string>
+    <string name="usb_stats_idle">Idle</string>
+    <string name="usb_stats_locked">Locked</string>
+    <string name="usb_stats_unlocked">Unlocked</string>
+    <string name="usb_stats_bypass_active">Active (0 dB bit-exact)</string>
+    <string name="usb_stats_bypass_inactive">Attenuating (64-bit SW)</string>
+    <string name="usb_stats_hw_vol_supported">UAC Feature Unit (%1$s)</string>
+    <string name="usb_stats_hw_vol_sw_fallback">Unavailable (64-bit SW fallback)</string>
+    <string name="usb_stats_dsp_none_bypass">None (Pure Bypass)</string>
+    <string name="usb_stats_muted_suffix">Muted</string>
+    <string name="usb_stats_refresh">Refresh</string>
+    <string name="settings_usb_dsp_section_title">DSD &amp; fallback DSP</string>
+    <string name="settings_usb_dsd_mode_title">DSD playback priority</string>
+    <string name="settings_usb_dsd_mode_desc">Select how DSD tracks are sent to your DAC (falls back automatically if unsupported)</string>
+    <string name="settings_usb_dsd_mode_auto">Auto</string>
+    <string name="settings_usb_dsd_mode_native">Native</string>
+    <string name="settings_usb_dsd_mode_dop">DoP</string>
+    <string name="settings_usb_dsd_mode_pcm">PCM</string>
+    <string name="settings_usb_dsd_gain_title">DSD-to-PCM gain compensation</string>
+    <string name="settings_usb_dsd_gain_desc">Compensates standard -6 dB SACD modulation depth during FIR decimation</string>
+    <string name="settings_usb_resampler_title">64-bit resampler quality</string>
+    <string name="settings_usb_resampler_desc">Engages only when the DAC does not support the track\'s native sample rate</string>
+    <string name="settings_usb_resampler_medium">Medium</string>
+    <string name="settings_usb_resampler_high">High</string>
+    <string name="settings_usb_resampler_ultra">Ultra</string>
+    <string name="settings_usb_dither_title">TPDF dithering</string>
+    <string name="settings_usb_dither_desc">Reduces quantization distortion when DSP lowers bit depth (e.g. 24-bit → 16-bit)</string>
+    <string name="settings_usb_warmup_title">DAC warm-up time</string>
+    <string name="settings_usb_warmup_desc">Mute briefly on cold start or when switching sample rate / PCM ↔ DSD</string>
+    <string name="settings_usb_idle_timeout_title">DAC hot-standby timeout</string>
+    <string name="settings_usb_idle_timeout_desc">Keep DAC clock locked while paused for instant resume before sleeping</string>
+    <string name="settings_usb_vol_steps_title">DAC volume steps</string>
+    <string name="settings_usb_keep_alive_title">Keep USB Direct background playback alive</string>
+    <string name="settings_usb_keep_alive_desc">Loops a sub-audible speaker stream to prevent OEM background freezing; leave off if unnecessary to keep system volume routing clean</string>
+    <string name="settings_battery_opt_title">Unrestricted background battery</string>
+    <string name="settings_battery_opt_exempt">Exempt from battery optimization (background playback protected)</string>
+    <string name="settings_battery_opt_restricted">Restricted • Tap to ignore battery optimization</string>
+    <string name="settings_library_title">Library management</string>
+    <string name="settings_library_stats">%1$s • %2$s</string>
+    <string name="settings_rescan_title">Rescan music library</string>
+    <string name="settings_rescan_scanning">Scanning device storage…</string>
+    <string name="settings_rescan_desc">Synced</string>
+    <string name="settings_lyrics_title">Lyrics</string>
+    <string name="settings_lyrics_font_size_title">Lyrics text size</string>
+    <string name="settings_lyrics_size_small">Small</string>
+    <string name="settings_lyrics_size_medium">Medium</string>
+    <string name="settings_lyrics_size_large">Large</string>
+    <string name="settings_lyrics_align_title">Lyrics alignment</string>
+    <string name="settings_lyrics_align_left">Left</string>
+    <string name="settings_lyrics_align_center">Center</string>
+    <string name="settings_lyrics_autoscroll_title">Auto-scroll synced lyrics</string>
+    <string name="settings_lyrics_autoscroll_desc">Keep the currently playing lyric line centered automatically</string>
+    <string name="lyrics_empty_title">No lyrics found</string>
+    <string name="lyrics_grant_files_action">Grant file access</string>
+    <string name="lyrics_sync_action">Sync</string>
+    <string name="settings_clear_history_title">Clear playback history</string>
+    <string name="settings_clear_history_desc">Reset recently played songs, albums, and artists</string>
+    <string name="dialog_clear_history_title">Clear playback history?</string>
+    <string name="dialog_clear_history_msg">Your recently played tracks, albums, and artists list will be reset.</string>
+    <string name="toast_history_cleared">Playback history cleared</string>
+
+    <!-- Diagnostics & Debug Logs -->
+    <string name="settings_logs_title">Diagnostics &amp; Debug Logs</string>
+    <string name="settings_logs_toggle_title">Record detailed debug logs</string>
+    <string name="settings_logs_preview_title">View diagnostics &amp; logs</string>
+    <string name="settings_logs_preview_desc">Inspect audio outputs, USB DAC, and Bit-Perfect status</string>
+    <string name="settings_logs_share_title">Export &amp; share log file</string>
+    <string name="settings_logs_share_desc">Send full debug report (outputs, DAC descriptors, Bit-Perfect, logcat)</string>
+    <string name="settings_logs_save_title">Save log file to device</string>
+    <string name="settings_logs_save_desc">Save full debug report (.txt) to Downloads or Documents</string>
+    <string name="settings_logs_clear_title">Clear debug logs</string>
+    <string name="settings_logs_clear_desc">Delete all previously recorded log files</string>
+    <string name="dialog_logs_preview_title">Audio Diagnostics &amp; Logs</string>
+    <string name="dialog_logs_clear_title">Clear debug logs?</string>
+    <string name="dialog_logs_clear_msg">All previously recorded diagnostic logs will be erased.</string>
+    <string name="action_copy">Copy</string>
+    <string name="action_share">Share</string>
+    <string name="toast_logs_copied">Diagnostics copied to clipboard</string>
+    <string name="toast_logs_saved">Debug log file saved</string>
+    <string name="toast_logs_cleared">Debug logs cleared</string>
+    <string name="toast_logs_error">Failed to export log: %1$s</string>
+    <string name="share_log_chooser_title">Share PlayDepth debug log</string>
+
+    <!-- Settings Categories & Backup/Restore -->
+    <string name="settings_cat_appearance_title">Appearance</string>
+    <string name="settings_cat_playback_title">Playback options</string>
+    <string name="settings_cat_lyrics_title">Lyrics</string>
+    <string name="settings_cat_library_title">Library management</string>
+    <string name="settings_cat_debug_title">Debugging</string>
+    <string name="settings_cat_backup_title">Backup &amp; restore</string>
+    <string name="settings_backup_section_title">Data backup &amp; restore</string>
+    <string name="settings_backup_info">Includes app settings, custom playlists, favorite tracks, and listening history.</string>
+    <string name="settings_backup_create_title">Create backup file</string>
+    <string name="settings_backup_create_desc">Save all settings, playlists, favorites, and history to a .json file</string>
+    <string name="settings_backup_restore_title">Restore from backup</string>
+    <string name="settings_backup_restore_desc">Import settings, playlists, favorites, and history from a backup file</string>
+    <string name="toast_backup_saved">Backup saved successfully</string>
+    <string name="toast_backup_restored">Backup restored (%1$s, %2$s)</string>
+    <string name="toast_backup_error">Backup / restore failed: %1$s</string>
+    <string name="settings_amoled_title">AMOLED mode</string>
+    <string name="settings_amoled_desc">Pure black and pure white contrast across dark and light themes</string>
+    <string name="settings_now_playing_style_title">Now Playing style</string>
+    <string name="settings_now_playing_tablet_badge">Tablet</string>
+    <string name="settings_now_playing_style_modern">Modern</string>
+    <string name="settings_now_playing_style_modern_desc">Edge-to-edge album cover blended smoothly into a dynamic ambient background</string>
+    <string name="settings_now_playing_style_modern_desc_tablet">Rounded album cover on a dynamic ambient background with floating landscape HUD and inline lyrics &amp; queue</string>
+    <string name="settings_now_playing_style_classic">Classic</string>
+    <string name="settings_now_playing_style_classic_desc">Traditional rounded album art card on the standard Material 3 surface</string>
+    <string name="settings_now_playing_style_classic_desc_tablet">Rounded album cover on the standard Material 3 surface with floating landscape HUD and inline lyrics &amp; queue</string>
+    <string name="cd_lyrics_short">Lyrics</string>
+    <string name="cd_queue_short">Queue</string>
+    <string name="settings_now_playing_blend_title">Artwork edge blend</string>
+    <string name="settings_now_playing_blend_linear">Linear</string>
+    <string name="settings_now_playing_blend_linear_desc">Compact straight fade that hides the cover border while keeping maximum artwork area</string>
+    <string name="settings_now_playing_blend_curved">Curved</string>
+    <string name="settings_now_playing_blend_curved_desc">Soft S-curve feathering for a wider, gentler transition into the background</string>
+    <string name="settings_now_playing_seekbar_title">Seekbar style</string>
+    <string name="settings_now_playing_seekbar_slider">Slider</string>
+    <string name="settings_now_playing_seekbar_slider_desc">Standard Material 3 Expressive straight progress slider</string>
+    <string name="settings_now_playing_seekbar_wavy">Wavy Seekbar</string>
+    <string name="settings_now_playing_seekbar_wavy_desc">Material 3 Expressive animated wavy progress bar while playing</string>
+    <string name="settings_lyrics_delay_section_title">Lyrics sync offset (ms)</string>
+    <string name="settings_lyrics_delay_normal_title">Normal playback (Speaker / Wired)</string>
+    <string name="settings_lyrics_delay_bt_title">Bluetooth playback</string>
+    <string name="settings_lyrics_delay_bp_title">Bit-Perfect (USB DAC)</string>
+    <string name="settings_lyrics_delay_reset">Reset</string>
+    <string name="settings_excluded_folders_title">Exclude folders from library</string>
+    <string name="settings_excluded_folders_desc_none">No excluded folders • Tap to add folders to ignore during library scan</string>
+    <string name="settings_excluded_folders_add">Add folder to exclude</string>
+    <string name="settings_excluded_folders_empty">No folders excluded yet</string>
+    <string name="settings_custom_scan_folders_title">Additional scan folders</string>
+    <string name="settings_custom_scan_folders_desc_none">Include additional internal or external folders via SAF</string>
+    <string name="settings_custom_scan_folders_add">Add folder to scan</string>
+    <string name="settings_custom_scan_folders_empty">No additional folders added yet. Select custom folders or SD/USB folders here.</string>
+    <string name="settings_rescan_progress_folder">Scanning %1$d / %2$d • %3$s</string>
+    <string name="settings_rescan_cancel">Cancel scan</string>
+
+    <!-- Welcome & Onboarding Permissions -->
+    <string name="welcome_title">Welcome to PlayDepth</string>
+    <string name="welcome_subtitle">Please grant permissions to the app so it can work properly</string>
+    <string name="welcome_perm_storage_title">Storage access</string>
+    <string name="welcome_perm_storage_desc_legacy">Allow access to device storage to scan and play your local music library.</string>
+    <string name="welcome_perm_storage_desc_r_plus">Grant photos &amp; videos, music &amp; audio, and all files access sequentially.</string>
+    <string name="welcome_storage_step_photos_videos">Photos &amp; videos</string>
+    <string name="welcome_storage_step_music_audio">Music &amp; audio</string>
+    <string name="welcome_storage_step_media_legacy">Storage &amp; media</string>
+    <string name="welcome_storage_step_all_files">All files access</string>
+    <string name="welcome_perm_notification_title">Notification access</string>
+    <string name="welcome_perm_notification_desc">Display media playback controls and music library scan progress.</string>
+    <string name="welcome_perm_grant">Grant</string>
+    <string name="welcome_perm_continue">Continue</string>
+    <string name="welcome_perm_granted">Granted</string>
+    <string name="welcome_perm_optional_badge">Optional</string>
+    <string name="welcome_status_storage_required">Storage access is required to continue</string>
+    <string name="welcome_status_all_granted">Required permissions granted — ready to go</string>
+    <string name="welcome_action_start">Get started</string>
+    <string name="welcome_settings_dialog_title">Enable permission in Settings</string>
+    <string name="welcome_settings_dialog_storage_msg">Storage permission was permanently denied. Please open App Settings and enable storage access so PlayDepth can read your music files.</string>
+    <string name="welcome_settings_dialog_notification_msg">Notification permission was disabled. Please open Notification Settings and enable notifications for PlayDepth.</string>
+    <string name="welcome_settings_dialog_open">Open Settings</string>
+
+    <!-- Plurals -->
+    <plurals name="song_count">
+        <item quantity="one">%1$d song</item>
+        <item quantity="other">%1$d songs</item>
+    </plurals>
+    <plurals name="album_count">
+        <item quantity="one">%1$d album</item>
+        <item quantity="other">%1$d albums</item>
+    </plurals>
+    <plurals name="folder_count">
+        <item quantity="one">%1$d folder</item>
+        <item quantity="other">%1$d folders</item>
+    </plurals>
+    <plurals name="playlist_count">
+        <item quantity="one">%1$d playlist</item>
+        <item quantity="other">%1$d playlists</item>
+    </plurals>
+    <plurals name="favorite_count">
+        <item quantity="one">%1$d favorite</item>
+        <item quantity="other">%1$d favorites</item>
+    </plurals>
+    <plurals name="album_card_subtitle">
+        <item quantity="one">%1$s • %2$d song</item>
+        <item quantity="other">%1$s • %2$d songs</item>
+    </plurals>
+    <plurals name="album_year_songs">
+        <item quantity="one">%1$d • %2$d song</item>
+        <item quantity="other">%1$d • %2$d songs</item>
+    </plurals>
+    <plurals name="queue_header">
+        <item quantity="one">%1$s • %2$d song</item>
+        <item quantity="other">%1$s • %2$d songs</item>
+    </plurals>
+    <plurals name="notif_scan_progress">
+        <item quantity="one">Found %1$d song…</item>
+        <item quantity="other">Found %1$d songs…</item>
+    </plurals>
+    <plurals name="notif_scan_done_text">
+        <item quantity="one">Synced %1$d song into library</item>
+        <item quantity="other">Synced %1$d songs into library</item>
+    </plurals>
+    <plurals name="about_open_source_subtitle">
+        <item quantity="one">%1$d open-source project credited</item>
+        <item quantity="other">%1$d open-source projects credited</item>
+    </plurals>
+    <plurals name="settings_song_badge">
+        <item quantity="one">%1$d song</item>
+        <item quantity="other">%1$d songs</item>
+    </plurals>
+    <plurals name="settings_logs_toggle_desc_on">
+        <item quantity="one">Recording (%1$d line • %2$s): speaker, headset, USB DAC, Bit-Perfect</item>
+        <item quantity="other">Recording (%1$d lines • %2$s): speaker, headset, USB DAC, Bit-Perfect</item>
+    </plurals>
+    <plurals name="settings_logs_toggle_desc_off">
+        <item quantity="one">Paused • Stored %1$d line (%2$s)</item>
+        <item quantity="other">Paused • Stored %1$d lines (%2$s)</item>
+    </plurals>
+    <plurals name="settings_excluded_folders_desc_count">
+        <item quantity="one">%1$d folder excluded • Tap to manage</item>
+        <item quantity="other">%1$d folders excluded • Tap to manage</item>
+    </plurals>
+    <plurals name="settings_custom_scan_folders_desc_count">
+        <item quantity="one">%1$d folder added • Tap to manage</item>
+        <item quantity="other">%1$d folders added • Tap to manage</item>
+    </plurals>
+    <plurals name="settings_rescan_progress">
+        <item quantity="one">Scanning %1$d / %2$d song…</item>
+        <item quantity="other">Scanning %1$d / %2$d songs…</item>
+    </plurals>
+</resources>

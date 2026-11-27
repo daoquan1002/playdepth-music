@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.MusicPlayer" parent="android:Theme.Material.NoActionBar">
+        <!-- Đặt thanh trạng thái và thanh điều hướng trong suốt để màu giao diện phủ trọn vẹn -->
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:enforceNavigationBarContrast" tools:targetApi="q">false</item>
+        <item name="android:enforceStatusBarContrast" tools:targetApi="q">false</item>
+        <!-- Splash Screen cho Android 11 trở về trước -->
+        <item name="android:windowBackground">@drawable/splash_screen</item>
+        <!-- Splash Screen cho Android 12+ -->
+        <item name="android:windowSplashScreenBackground" tools:targetApi="s">@color/splash_bg</item>
+        <item name="android:windowSplashScreenAnimatedIcon" tools:targetApi="s">@drawable/ic_splash_screen_icon</item>
+    </style>
+</resources>
